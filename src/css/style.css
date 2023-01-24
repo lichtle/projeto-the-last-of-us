@@ -2,6 +2,22 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/* GROUP STYLING */
+
+.menu li a,
+.container .descricao,
+.container .botao-trailer,
+.fechar-modal {
+  color: var(--cor-de-texto, #ffffff);
+}
+
+.fundo-video,
+.fechar-modal {
+  background-color: var(--cor-de-fundo, #000000);
+}
+
+/* SINGLE ELEMENT STYLING */
+
 .cabecalho {
   display: flex;
   justify-content: space-between;
@@ -22,7 +38,6 @@ body {
 
 .menu li a {
   font-weight: bold;
-  color: #ffffff;
   font-size: 2.2rem;
   padding: 1rem 1.5rem;
   border-radius: 2.5rem;
@@ -56,12 +71,10 @@ body {
   width: 85%;
   margin: 3rem 0;
   font-size: 1.8rem;
-  color: #ffffff;
 }
 
 .container .botao-trailer {
   background-color: #252323;
-  color: #ffffff;
   padding: 1.5rem;
   font-size: 1.8rem;
   font-weight: bold;
@@ -73,7 +86,6 @@ body {
 }
 
 .fundo-video {
-  background-color: #000000;
   width: 100vw;
   height: 100vh;
   position: absolute;
@@ -122,7 +134,6 @@ body {
 
 .fechar-modal {
   background-color: rgb(0, 0, 0);
-  color: #ffffff;
   font-size: 1.8rem;
   font-weight: bold;
   padding: 0.5rem 1rem;
