@@ -6,7 +6,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3rem;
+  padding: 4rem 5rem;
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -45,7 +45,7 @@ body {
   height: calc(
     100vh - 114.44
   ); /* Se colocarmos só 100vh (para preencher a tela toda, pois a caixa original é limitada), um scroll lateral será adicionado devido à altura do header de classe "cabecalho". Para isso subtraimos a altura do header da altura de 100vh */
-  padding: 0 3rem;
+  padding: 0 5rem;
 }
 
 .container .game-logo {
